@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+    <title>Appli Pokémon</title>
+</head>
+
+<body>
+    <main class="container">
+        <form name="selection">
+            <section class="formulaire">
+                <h1>INFORMATIONS POKEMON</h1>
+                
+                <section class="selection">
+                    <label class="choisir" for="pokemon">Choisir un pokemon :</label>
+                    <br>
+                    <select name="pokemon" id="pet-pokemon">
+                    </select>
+                </section>
+                
+                <div class="consulter">
+                    <p>Pour connaître ses caractéristiques</p>
+                    <button class="btn" type="submit">
+                            Chercher via JS
+                    </button>
+                </div>
+                <section class="resultat">
+                    <h2 id="nomPokemon">Voici les informations de </h2>
+                    <img src="" alt="">
+                    <p id="element"> Élément :  </p>
+                    <p id="evolution"> Évolue en :  </p>
+                    <button id="details" type="button">
+                        Details
+                    </button>
+                </section>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-image: url(../img/wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 45px;
+}
+
+.formulaire {
+    border: 1px solid black;
+    width: 45%;
+    margin: auto;
+    background-color: rgb(88, 27, 94);
+    opacity: 0.90;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 45px;
+    color: rgb(202, 6, 104);
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.choisir{
+    font-size: 1.8em;
+    color: rgb(107, 107, 107);
+    font-family: fantasy ;
+}
+
+#pet-pokemon{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.consulter {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0 20px;
+    font-size: 1.7em;
+    padding-top: 15px;
+    color: rgb(107, 107, 107);
+    font-family: fantasy;
+}
+
+.consulter button {
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: fantasy;
+    font-size: 20px;
+    color: rgb(48, 39, 39);
+}
+
+.consulter a {
+    text-decoration: none;
+}
+
+.resultat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+h2{
+    font-family: fantasy;
+    font-size: 30px;
+    color: #a39d9d;
+    margin-left: 20px;
+}
+
+.resultat img{
+    width: 60%;
+    height: auto;
+}
+
+#element, #evolution{
+    font-size: 25px;
+    color: #999393;
+}
+
+#evolution{
+    padding-bottom: 3px;
+}
+
+button#details{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
